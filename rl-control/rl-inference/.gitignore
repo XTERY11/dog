@@ -1,0 +1,11 @@
+build/*
+install/*
+devel/*
+*.user
+.vscode
+*.autosave
+*/logs
+*.onnx
+*.om
+*.zip
+.catkin_workspace

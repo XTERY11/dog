@@ -1,0 +1,9 @@
+build/*
+install/*
+devel/*
+*.user
+.vscode
+*.autosave
+*.onnx
+*.om
+*.zip

@@ -1,0 +1,12 @@
+
+qr_desired_state_command.cpp: 这个文件可能用于设置机械狗的目标状态，包括期望的速度、方向和姿态，这对于步态控制和切换至关重要。
+
+qr_foot_trajectory_generator.cpp: 此文件可能涉及脚部轨迹的生成，这对于确保步态的平滑性和精确性非常重要。
+
+qr_locomotion_controller.cpp: 这个文件可能是整个运动控制系统的核心，协调各种控制器和优化器，以实现高效和稳定的步态。
+
+qr_stance_leg_controller_interface.cpp: 此文件可能定义了与站立腿部控制器交互的接口，用于同步和调整腿部运动。
+
+qr_state_dataflow.cpp: 这个文件可能管理机械狗的状态数据流，如传感器输入和控制器输出，对于实现反馈控制和适应性步态至关重要。
+
+qr_swing_leg_controller.cpp: 此文件可能专注于摆动腿部的控制，这对于步态动态性和适应性至关重要。

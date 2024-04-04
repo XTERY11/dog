@@ -1,0 +1,3 @@
+qr_qp_torque_optimizer.cpp: 这个文件可能涉及到扭矩优化的逻辑，它可能负责计算合适的力矩输出，以确保机械狗在不同步态下的稳定运动。
+
+qr_torque_stance_leg_controller.cpp: 此文件可能包含控制站立腿部扭矩的逻辑，对于保持平衡和实现平稳步态转换至关重要。

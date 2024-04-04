@@ -1,0 +1,9 @@
+name: aliengo
+stance_leg_params:
+    force_dim: 3
+#    KP:  [200., 200., 100., 200., 200., 0.] # robot_com_position, robot_com_roll_pitch_yaw
+    KP:  [200., 268., 100., 200., 265., 0.] # robot_com_position, robot_com_roll_pitch_yaw
+    KD:  [40., 30., 10., 20., 20., 30.] # robot_com_velocity, robot_com_roll_pitch_yaw_rate
+    max_ddq: [10., 10., 10., 20., 20., 20.]
+    min_ddq: [-10., -10., -10., -20., -20., -20.]
+    acc_weight: [1., 1., 1., 10., 10., 1.]

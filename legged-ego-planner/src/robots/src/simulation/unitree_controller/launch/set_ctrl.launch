@@ -1,0 +1,8 @@
+<launch>
+    <arg name="rname" default="laikago"/>
+    <param name="/use_sim_time" value="true" />
+    <param name="robot_name" value="$(arg rname)"/>
+
+    <!-- <node pkg="unitree_controller" type="unitree_servo" name="unitree_servo" respawn="true"/> -->
+
+</launch>
